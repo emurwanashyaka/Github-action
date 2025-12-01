@@ -16,7 +16,7 @@ jobs:
         runs-on: ubuntu-latest # macos-latest , window-latest
         steps:
             - name: Checkout repo
-              uses:  action/checkout@v4
+              uses:  actions/checkout@0ad4f3bde3aeedc7f5efc6c2f6cb3bc86f21d0f3
             - name: create file
               run: touch github-action.txt
             - name: print hello world
